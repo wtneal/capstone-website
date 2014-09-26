@@ -1,6 +1,7 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import url(http://fonts.googleapis.com/css?family=Dosis);
 // endbower
 
 .browsehappy {
@@ -15,6 +16,7 @@ body {
   background: url(/images/small_steps.png) #eee;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Dosis', sans-serif;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
