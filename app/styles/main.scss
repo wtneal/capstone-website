@@ -12,6 +12,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 /* Space out content a bit */
 body {
+  background: url(/images/small_steps.png) #eee;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -69,7 +70,14 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(50,50,50,0.75);
+    -moz-box-shadow: 0px 5px 8px 0px rgba(50,50,50,0.75);
+    box-shadow: 0px 5px 8px 0px rgba(50,50,50,0.75);
   }
 
   /* Remove the padding we set earlier */
@@ -78,6 +86,10 @@ body {
   .footer {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .footer {
+    text-align:right;
   }
 
   /* Space out the masthead */
